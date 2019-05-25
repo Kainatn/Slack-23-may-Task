@@ -1,0 +1,78 @@
+body{
+  margin: 0;  
+  font-family: 'Roboto', sans-serif;
+}
+#sidebar{
+    background-color: rgb(25, 3, 46);
+    color: white;
+    display: table-cell;
+    padding: 1em;
+
+}
+#head h2{
+    margin-top: 0px;
+    padding-right: 10px;
+}
+input[type="text"] {
+    padding: 7px;
+    background-color: #38103894;
+    border: none;
+    color: white;
+}
+div#tech {
+    display: inline-flex;
+}
+#sidebar >.thread{
+    margin-top: 13px;
+}
+
+#tk{
+    display: flex;
+    justify-content: space-between;}
+#tk p{
+    margin-top: 0;
+}
+
+#chan i.fas.fa-plus-circle {
+    padding-left: 3em;}
+div#chan {
+    display: flex;
+    justify-content: space-between;}
+#head{
+    display: flex;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+}
+#channel{
+    display: flex;
+    display: inline-block;
+}
+li:hover {
+    border-radius: 10px;
+    background-color: #d60e31;}
+li{list-style: none;
+    padding: 5px;}
+a{
+color: white;
+
+}
+ul {
+    padding-left: 2px;
+    margin-top: 0;
+}
+div#slack {
+    display: flex;
+    justify-content: space-between;
+    justify-content: 0;
+}
+
+div#cirlcle {
+    background-color: #f1153b;
+    padding: 10px 10px 10px 10px;
+    align-items: center;
+    border-radius: 50px;}
+    i.fas.fa-circle {
+        color: green;
+    }
