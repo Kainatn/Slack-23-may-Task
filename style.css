@@ -103,7 +103,6 @@ nav {
 #home {
     background-color: #3f0d40;
     color: #b29fb3;
-    height: 100%;
     padding: 0px 20px;
     width: 182px;
 }
@@ -169,7 +168,7 @@ nav {
     color: #c5b7c6;
     padding: 10px 20px;
     border-radius: 5px;
-    max-width: 100%;
+   width: 100%;
     margin: 5px 0px;
 }
 
@@ -604,7 +603,6 @@ fieldset {
 
 #chat {
     display: flex;
-    display: block;
     margin-top: 40px;
 }
 
