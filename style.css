@@ -5,7 +5,26 @@
 /* Please use only lower-case letters */
 
 /* Your webpage should be 100% responsive!!! */
+.searchContainer {
+    display: inline-flex;
+    flex: 1 1 300px;
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .searchIcon {
+    padding: 0.5rem;
+  }
+  
+  .searchContainer .searchBox {
+    border:0;
+    padding: 0.5rem 0.5rem 0.5rem 0;
+    flex: 1;
 
+  }
+  
 body {
     font-family: 'Noto Sans JP', sans-serif;
     margin: 0;
@@ -103,6 +122,7 @@ nav {
 #home {
     background-color: #3f0d40;
     color: #b29fb3;
+    height: 100%;
     padding: 0px 20px;
     width: 182px;
 }
@@ -161,17 +181,40 @@ nav {
     color: #37938a;
 }
 
-#jump-to {
+.jump-to {
     background: none;
     border: none;
     background-color: #250027;
     color: #c5b7c6;
-    padding: 10px 20px;
     border-radius: 5px;
-   width: 100%;
-    margin: 5px 0px;
+    max-width: 100%;
+    margin: 5px -10px
+}
+#user-name,#h2:hover {
+    color: white;
 }
 
+
+.jump-con{
+    background-color: #250027;
+    display: inline-flex;
+    flex: 1 1 300px;
+    position: relative;
+    border: none;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .searchIcon {
+    padding: 0.5rem;
+  }
+  
+  .searchContainer .searchBox {
+    border:0;
+    padding: 0.5rem 0.5rem 0.5rem 0;
+    flex: 1;
+
+  }
 #reads-threads {
     margin: 20px 0px;
 }
@@ -384,9 +427,11 @@ header {
 #channel-icons div:nth-child(1) {
     color: #dddddd;
 }
+i.far.fa-star:hover {
+    color:goldenrod;
+}
 
 #channel-icons div:nth-child(2) {
-    background-color: #dddddd;
     border-radius: 5px;
     padding: 5px 5px;
 }
@@ -400,11 +445,7 @@ header {
     color: #1d1c1d;
 }
 
-#channel-icons input {
-    border-radius: 5px;
-    border: 1px solid grey;
-    padding: 6px 12px;
-}
+
 
 /* channel content */
 
@@ -602,6 +643,7 @@ fieldset {
 }
 
 #chat {
+   
     display: block;
     margin-top: 40px;
 }
