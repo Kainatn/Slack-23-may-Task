@@ -602,7 +602,7 @@ fieldset {
 }
 
 #chat {
-    display: flex;
+    display: block;
     margin-top: 40px;
 }
 
