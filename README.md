@@ -1,3 +1,4 @@
+**Published at :** https://kainatn.github.io/Slack_Task/
 # Mockups May 23 - May 30
 
 Check the mockups folder and create a pixel perfect clone! 
