@@ -63,10 +63,15 @@ legend {
 nav {
     display: flex;
 }
+body #scrol{
+    width:25%;
+    overflow-y: scroll;
+    height:850px;
 
+}
 #workspace {
     background-color: #200720;
-    padding: 0px 15px;
+    padding: 0px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -98,8 +103,7 @@ nav {
 }
 .station{ 
     text-align: center;
-  
-    margin-left: 0;
+     margin-left: 0;
 }
 .station i {
     font-size: 2.5em;
@@ -133,7 +137,6 @@ nav {
 #home {
     background-color: #3f0d40;
     color: #b29fb3;
-    height: 100%;
     padding: 0px 20px;
     width: 182px;
 }
@@ -319,18 +322,22 @@ nav {
     line-height: 1.8;
 }
 
-#dir-msg div {
+#dir-msg li {
     display: flex;
     align-items: center;
+    margin-left: 0;
 }
 
 #dir-msg .dm {
     justify-content: space-between;
 }
-
-#dir-msg>div i {
+#dir-msg label{
+    margin-left: 10px;
+}
+#dir-msg>li i {
     margin-right: 5px;
     font-size: 11px;
+
 }
 
 /* this right margin on icon is making plus icon having right margin too */
@@ -779,8 +786,22 @@ footer{
 }
 /*Responsive */
 @media only screen and (max-width: 600px){
-    nav{
-        display: none;
+    #main-page {
+        display: flex;
+        flex-direction: column;
+    }
+    footer{
+        width: 100%;
+    }
+    nav #workspace{ 
+        width: 20%;
+    }
+    body #scrol{
+        width:100%;
+        overflow-y: scroll;
+        height:850px;
+    } nav #home{ 
+        width: 100%;
     }
     header{
    display: none;
