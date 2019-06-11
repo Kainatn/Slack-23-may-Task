@@ -331,8 +331,11 @@ body #scrol{
 #dir-msg .dm {
     justify-content: space-between;
 }
-#dir-msg label{
+#dir-msg li{
     margin-left: 10px;
+}
+#chn-heading h4{
+   margin: 0;
 }
 #dir-msg>li i {
     margin-right: 5px;
